@@ -15,7 +15,7 @@ namespace Rhyous.NuGetPackageUpdater.Wrappers
             return Directory.GetFiles(path);
         }
 
-        /// <inheritdoc cref="Directory.GetDirectories(string)"
+        /// <inheritdoc cref="Directory.GetDirectories(string)"/>
         public string[] GetDirectories(string path) 
         { 
             return Directory.GetDirectories(path); 
